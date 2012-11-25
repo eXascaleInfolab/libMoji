@@ -1,4 +1,4 @@
-// identicon.js - Identicon rendering class
+// libmoji.js - Identicon rendering class
 // 
 // Sample Code
 //
