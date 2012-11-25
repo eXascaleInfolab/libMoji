@@ -45,14 +45,21 @@
         <div class="span12"><h1>libMoji</h1></div>
     </div>
     <div id="explanation" class="row" style="display: inline-block;">
-	<div class="span6">
+	<div class="span4">
 		<p>This pages shows some different uses of the libMoji.js, please have look at the source code.
 		</p>
         </div>
-	<div class="span6">
-		<p>Find the code on <a href="github.com/XI-lab/libMoji">GitHub</a>
+	<div class="span4">
+		<p>Find the code on <a href="github.com/XI-lab/libMoji">GitHub</a>.
 		</p>
         </div>
+	<div class="span4">
+	    <p>Generate your own Moji:</ br>
+		<input type="text" onKeyUp="document.getElementById('create').getIdenticon().update(this.value);">
+		&nbsp;<canvas id="create" class="identicon" width="32" identicon-type="Moji"></canvas> 
+		</p>
+        </div>
+
     </div>
     <div id="identifiers" class="row" style="display: inline-block;">
         <div class="span4">
